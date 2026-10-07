@@ -1,0 +1,27 @@
+.workspace
+
+node_modules
+
+dist
+
+temp_auto_push.bat
+
+temp_interactive_push.bat
+
+config.bat
+
+# secrets and local tooling
+.env
+.env.*
+!.env.example
+*.pem
+*service-account*.json
+*-firebase-adminsdk-*.json
+.auth-keys.json
+.vercel
+node_modules/
+dist/
+.next/
+config.bat
+temp_auto_push.bat
+temp_interactive_push.bat
